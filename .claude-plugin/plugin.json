@@ -1,10 +1,21 @@
 {
   "name": "webmcp-toolkit",
   "version": "1.0.0",
-  "description": "Implement WebMCP in web projects — browser-native structured tools for AI agents using imperative JS or declarative HTML APIs. Full lifecycle from setup through testing and optimization.",
+  "description": "A Claude Code plugin that provides expert-level guidance for implementing WebMCP in web projects — browser-native structured tools that let AI agents interact with websites through typed APIs instead of screen-scraping.",
   "author": {
-    "name": "Quintin Henry"
+    "name": "Quintin Henry",
+    "url": "https://github.com/qdhenry"
   },
+  "homepage": "https://github.com/qdhenry/WebMCP-Toolkit",
+  "repository": "https://github.com/qdhenry/WebMCP-Toolkit",
   "license": "MIT",
-  "keywords": ["webmcp", "browser", "ai-agents", "tools", "chrome", "model-context-protocol"]
+  "keywords": ["webmcp", "browser", "ai-agents", "tools", "chrome", "model-context-protocol", "declarative-api", "imperative-api"],
+  "commands": [
+    "./commands/webmcp.md",
+    "./commands/webmcp-setup.md",
+    "./commands/webmcp-add-tool.md",
+    "./commands/webmcp-debug.md",
+    "./commands/webmcp-audit.md"
+  ],
+  "skills": "./skills/"
 }
