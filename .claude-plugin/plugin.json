@@ -1,0 +1,10 @@
+{
+  "name": "webmcp",
+  "version": "1.0.0",
+  "description": "Implement WebMCP in web projects — browser-native structured tools for AI agents using imperative JS or declarative HTML APIs. Full lifecycle from setup through testing and optimization.",
+  "author": {
+    "name": "Quintin Henry"
+  },
+  "license": "MIT",
+  "keywords": ["webmcp", "browser", "ai-agents", "tools", "chrome", "model-context-protocol"]
+}
