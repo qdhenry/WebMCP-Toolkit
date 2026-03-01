@@ -47,17 +47,47 @@ A router-pattern skill with full domain expertise:
 
 ## Installation
 
-Add the plugin to your Claude Code settings (`.claude/settings.json`):
+### Option 1: Marketplace (recommended)
+
+Add the marketplace and install the plugin from your terminal:
+
+```shell
+# Add the marketplace source
+/plugin marketplace add qdhenry/WebMCP-Toolkit
+
+# Install the plugin
+/plugin install webmcp-toolkit@webmcp-toolkit
+```
+
+### Option 2: Manual configuration
+
+Add the following to your Claude Code settings file (`.claude/settings.json` in your project or `~/.claude/settings.json` globally):
 
 ```json
 {
-  "plugins": [
-    "qdhenry/WebMCP-Toolkit"
-  ]
+  "extraKnownMarketplaces": {
+    "webmcp-toolkit": {
+      "source": {
+        "source": "github",
+        "repo": "qdhenry/WebMCP-Toolkit"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "webmcp-toolkit@webmcp-toolkit": true
+  }
 }
 ```
 
-Then use any of the slash commands (e.g., `/webmcp-setup`) or invoke the skill directly.
+### Verify installation
+
+After installing, confirm the plugin is loaded:
+
+```shell
+/plugin list
+```
+
+You should see `webmcp-toolkit` in the output. Then try any slash command (e.g., `/webmcp-setup`) or invoke the skill directly.
 
 ## Prerequisites
 
