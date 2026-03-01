@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "A Claude Code plugin that provides expert-level guidance for implementing WebMCP in web projects — browser-native structured tools that let AI agents interact with websites through typed APIs instead of screen-scraping.",
   "author": {
-    "name": "Quintin Henry",
-    "url": "https://github.com/qdhenry"
+    "name": "Quintin Henry"
   },
   "homepage": "https://github.com/qdhenry/WebMCP-Toolkit",
   "repository": "https://github.com/qdhenry/WebMCP-Toolkit",

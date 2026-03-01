@@ -1,0 +1,23 @@
+{
+  "name": "webmcp-toolkit",
+  "owner": {
+    "name": "Quintin Henry"
+  },
+  "metadata": {
+    "description": "WebMCP implementation toolkit for Claude Code — browser-native structured tools for AI agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "webmcp-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "qdhenry/WebMCP-Toolkit"
+      },
+      "description": "Expert-level guidance for implementing WebMCP in web projects — browser-native structured tools that let AI agents interact with websites through typed APIs instead of screen-scraping.",
+      "version": "1.0.0",
+      "category": "web-development",
+      "tags": ["webmcp", "browser", "ai-agents", "chrome", "model-context-protocol"]
+    }
+  ]
+}
